@@ -21,12 +21,12 @@ function EducationForm({ data, onChange, onAdd }) {
           <input
             type="date"
             value={edu.startDate}
-            onChange={(e) => onChange(index, "startDate", e.target.value)}
+            onChange={(e) => onChange(index, "startDate", e.target.value.split('-').reverse().join('-'))}
           />
           <input
             type="date"
             value={edu.endDate}
-            onChange={(e) => onChange(index, "endDate", e.target.value)}
+            onChange={(e) => onChange(index, "endDate", e.target.value.split('-').reverse().join('-'))}
           />
         </div>
       ))}

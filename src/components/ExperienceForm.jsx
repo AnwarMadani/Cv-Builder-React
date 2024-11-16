@@ -21,12 +21,12 @@ function ExperienceForm({ data, onChange, onAdd }) {
           <input
             type="date"
             value={exp.startDate}
-            onChange={(e) => onChange(index, "startDate", e.target.value)}
+            onChange={(e) => onChange(index, "startDate", e.target.value.split('-').reverse().join('-'))}
           />
           <input
             type="date"
             value={exp.endDate}
-            onChange={(e) => onChange(index, "endDate", e.target.value)}
+            onChange={(e) => onChange(index, "endDate", e.target.value.split('-').reverse().join('-'))}
           />
         </div>
       ))}
