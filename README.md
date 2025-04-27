@@ -9,4 +9,4 @@ A simple and intuitive React-based CV Builder application that allows users to c
 Built with React and Vite for fast and efficient performance. The application is styled to ensure clarity and a professional aesthetic, making it a perfect tool for users looking to quickly generate a well-structured CV.
 
 
-Try it live [here](https://6737b1ab23d8855375a0bd9d--gorgeous-rolypoly-5cb836.netlify.app/)
+Try it live [here](https://6738c1736aa5200008892ad0--gorgeous-rolypoly-5cb836.netlify.app/)
